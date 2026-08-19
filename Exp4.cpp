@@ -6,7 +6,7 @@ using namespace std;
 
 // Saving Account Class
 class SavingAccount {
-private:
+public:
     string accountHolderName;
     int accountNumber;
     double balance;
@@ -19,6 +19,7 @@ public:
         balance = initialBalance;
         interestRate = rate;
     }
+    SavingAccount(){}
 
     void deposit(double amount) {
         if (amount > 0) {
@@ -54,6 +55,7 @@ public:
 // Checking Account Class
 class CheckingAccount {
 private:
+    SavingAccount s1;
     string accountHolderName;
     int accountNumber;
     double balance;
@@ -61,6 +63,10 @@ private:
 
 public:
     CheckingAccount(string name, int accNumber, double initialBalance, double fee) {
+        s1.accountHolderName=name;
+        s1.accountNumber=accNumber;
+        s1.balance=initialBalance;
+        s1.interestRate=7;
         accountHolderName = name;
         accountNumber = accNumber;
         balance = initialBalance;
@@ -87,6 +93,7 @@ public:
     }
 
     void display() {
+        s1.display();
         cout << "\n[Checking Account]" << endl;
         cout << "Account Holder: " << accountHolderName << endl;
         cout << "Account Number: " << accountNumber << endl;
