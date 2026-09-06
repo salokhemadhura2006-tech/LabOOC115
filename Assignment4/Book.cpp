@@ -49,6 +49,7 @@ int main() {
     book1.displayBook();
 
     book1.returnBook();
+    //<<"Author:",<<book1.author
     book1.displayBook();
 
     return 0;
