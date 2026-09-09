@@ -2,7 +2,7 @@
 using namespace std;
 
 class Shape{
-public:
+private:
      int s, l, b;
      float r, bs, ht;
 
