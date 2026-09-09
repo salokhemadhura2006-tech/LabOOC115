@@ -61,6 +61,9 @@ int main()
 {
     // Create a rectangle with custom values
     Rectangle rect(4.0, 40.0);
+    cout<<"Length:"<<rect.length;
+    cout<<"Width:"<<rect.width;
+    
     
     // Display properties
     cout << "Rectangle properties:" << endl;
