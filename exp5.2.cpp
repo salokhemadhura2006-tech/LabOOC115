@@ -2,7 +2,7 @@
 using namespace std;
 class construct
 {
-    public:
+    protected:
     float area;
 
     construct(){
@@ -26,7 +26,7 @@ int main()
     construct c1(5,3);
     c.display();
     c1.display();
-    cout<<"Area is:"<<area;
+    cout<<"Area is:"<<c1.area;
     return 0;
 
 }
