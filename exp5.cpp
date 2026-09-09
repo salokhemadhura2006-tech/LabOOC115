@@ -72,10 +72,10 @@ int main()
 
     Rectangle r;
     cout << "Rectangle properties:" << endl;
-    cout << "Length: " << rect.getLength() << endl;
-    cout << "Width: " << rect.getWidth() << endl;
-    cout << "Area: " << rect.calculateArea() << endl;
-    cout << "Perimeter: " << rect.calculatePerimeter() << endl;
+    cout << "Length: " << r.getLength() << endl;
+    cout << "Width: " << r.getWidth() << endl;
+    cout << "Area: " << r.calculateArea() << endl;
+    cout << "Perimeter: " << r.calculatePerimeter() << endl;
 
     return 0;
 }
