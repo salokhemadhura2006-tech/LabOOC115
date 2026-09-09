@@ -2,7 +2,7 @@
 using namespace std;
 class construct
 {
-    protected:
+    public:
     float area;
 
     construct(){
