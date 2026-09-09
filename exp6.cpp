@@ -1,37 +1,13 @@
 #include <iostream>
 using namespace std;
 
-// Function declarations
-int area(int);
-int area(int, int);
-float area(float);
-float area(float, float);
+class Shape{
+public:
+     int s, l, b;
+     float r, bs, ht;
 
-int main()
-{
-    int s, l, b;
-    float r, bs, ht;
 
-    cout << "Enter side of a square: ";
-    cin >> s;
-
-    cout << "Enter length and breadth of rectangle: ";
-    cin >> l >> b;
-
-    cout << "Enter radius of circle: ";
-    cin >> r;
-
-    cout << "Enter base and height of triangle: ";
-    cin >> bs >> ht;
-
-    cout << "\nArea of square is " << area(s);
-    cout << "\nArea of rectangle is " << area(l, b);
-    cout << "\nArea of circle is " << area(r);
-    cout << "\nArea of triangle is " << area(bs, ht);
-
-    return 0;
-}
-
+public:
 // Area of square
 int area(int s)
 {
@@ -54,4 +30,19 @@ float area(float r)
 float area(float bs, float ht)
 {
     return (bs * ht) / 2;
+}      
+};     
+
+int main()
+{
+
+    Shape s;
+
+    cout << "\nArea of square is " << s.area(4);
+    cout << "\nArea of rectangle is " << s.area(5,6);
+    cout << "\nArea of circle is " << s.area(3.4f);
+    cout << "\nArea of triangle is " << s.area(8.0f,5.0f);
+
+    return 0;
 }
+
