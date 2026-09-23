@@ -3,8 +3,8 @@ using namespace std;
 
 class Shape{
 private:
-     int s, l, b;
-     float r, bs, ht;
+     //int s, l, b;
+    // float r, bs, ht;
 
 
 public:
