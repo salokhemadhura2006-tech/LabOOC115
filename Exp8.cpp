@@ -32,7 +32,7 @@ public:
         d3.inch = this->inch + d2.inch;
 
         // Return the resulting object
-        return d3;
+        return  5;
     }
 };
 
