@@ -4,7 +4,7 @@ using namespace std;
 // Base Class
 class Employee
 {
-protected:
+private:
     int employeeID;
     string employeeName, department;
 
@@ -88,6 +88,7 @@ int main()
 {
     TeachingStaff teacher;
     NonTeachingStaff staff;
+    teacher. employeeID;
 
     cout << "\n--- Enter Teaching Staff Details ---\n";
     teacher.getTeachingDetails();
