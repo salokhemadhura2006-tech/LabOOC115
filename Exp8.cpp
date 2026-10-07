@@ -30,9 +30,10 @@ public:
 
         d3.feet = this->feet + d2.feet;
         d3.inch = this->inch + d2.inch;
+        cout<<" I am from operator"<<d2.feet;
 
         // Return the resulting object
-        return  5;
+        return  d3;
     }
 };
 
