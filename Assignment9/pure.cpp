@@ -42,19 +42,19 @@ public:
 
 int main()
 {
-    Vehicle *v;
+    //Vehicle *v;
 
     Car c;
     Bike b;
 
     // Runtime polymorphism
-    v = &c;
-    v->start();
-    v->stop();
+    //v = &c;
+    c.start();
+    c.stop();
 
-    v = &b;
-    v->start();
-    v->stop();
+    //v = &b;
+    b.start();
+    b.stop();
 
     return 0;
 }
