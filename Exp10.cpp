@@ -13,7 +13,7 @@ int main()
     string line;
 
     // Open file in output mode
-    fout.open("sample.txt");
+    fout.open("sample.txt",ios::app);
 
     // Execute loop if file successfully opened
     while (fout)
