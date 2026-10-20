@@ -1,0 +1,4 @@
+101 Car Swift 1500 1
+102 Car Creta 2500 1
+201 Bike Activa 500 1
+202 Bike Pulsar 800 1
