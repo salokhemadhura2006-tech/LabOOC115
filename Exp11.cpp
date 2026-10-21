@@ -3,10 +3,10 @@ using namespace std;
 
 double division(int a, int b)
 {
-    if (b == 0)
+    /*if (b == 0)
     {
         throw "Division by zero condition!";
-    }
+    }*/
 
     return (double)a / b;
 }
@@ -17,15 +17,15 @@ int main()
     int y = 0;
     double z = 0;
 
-    try
-    {
+    //try
+    //{
         z = division(x, y);
         cout << z << endl;
-    }
-    catch (const char* msg)
+    //}
+    /*catch (const char* msg)
     {
         cerr << msg << endl;
-    }
-
+    }*/
+    cout<<"\n My name is Madhura";
     return 0;
 }
